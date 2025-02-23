@@ -1,0 +1,38 @@
+.main{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex: 1;
+    display: flex;
+    margin-top: 100px;
+
+}
+.sub-main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    box-shadow: 0px 0px 9px rgb(97,97,97);
+}
+.sub-main h3, button, h4{
+    text-align: center;
+}
+.sub-main input {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.sub-main button{
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 40px;
+    background-color: rgb(45, 45, 211);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    align-self: center;
+}
